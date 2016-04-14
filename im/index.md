@@ -3,7 +3,7 @@
 
 1.  接入ISV描述和要求
 	ISV的接入，是作为工作圈中一个轻应用的形式接入，如下图：
-![yingyongtupian](http://gitlab.rd.chanjet.com/gongzuoquan/isv-dev-doc/blob/master/im/5ec700a5-0b37-4bad-b3d4-4934103dba42.png)
+[图片不能显示](http://gitlab.rd.chanjet.com/gongzuoquan/isv-dev-doc/blob/master/im/5ec700a5-0b37-4bad-b3d4-4934103dba42.png)
 
 
 所以每一个ISV都会有一个唯一的appId来标识这个ISV，一个对应的appName来简要的说明这个ISV的功能。例如：任务这个轻应用的appId 为8，appName为任务。
@@ -21,6 +21,6 @@ ISV在使用工作圈的IM开放能力之前，需要人工通过邮件的方式
 
    参数页面说明：
    
-![Alt text]()(http://gitlab.rd.chanjet.com/gongzuoquan/isv-dev-doc/blob/master/im/d8a77ab8-f9bb-4b1a-9a81-ad8297b2031f.png)
+[图片不能显示]()(http://gitlab.rd.chanjet.com/gongzuoquan/isv-dev-doc/blob/master/im/d8a77ab8-f9bb-4b1a-9a81-ad8297b2031f.png)
 
    3. 具体方法说明，见[openpush.md]()(./openpush.md)
