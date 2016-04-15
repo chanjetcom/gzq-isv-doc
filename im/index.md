@@ -13,4 +13,4 @@
     http://integzq.chanjet.com/openim/index.html 
 	    
    
-2.  具体方法说明，见 [openpush.md](./openpush.md)
+2.  具体方法说明，见 [openpush.md](./im/openpush.md)
