@@ -36,29 +36,26 @@
 
 + 1.4 通过java代码直接的调用rest服务推送消息：  
 
-
+~~~
     public static HttpClientUtils	httpClientUtils	= HttpClientUtils.getInstance();
     public static String url = "http://integzq.chanjet.com/notify/web/openim/push";
-	public static String recordLogin(String token, String endpointInfo, String orgId, String rpt) 
+	public static String pushMsg(String to, String alert, String orgId, String appId) 
 			throws IOException
 	{
 		List<NameValuePair> params = new ArrayList<>();
-		params.add(new NameValuePair("to", "60000001366"));
+		params.add(new NameValuePair("to", to));
 		/**
 		 * 其他的变量类似处理
 		 * */
 		String body = httpClientUtils.postResponse(url, params, Charsets.UTF8, false, null);
 		return body;
 	}
+~~~
 
 +1.5   一，通过浏览器调试模式，验证对方是否收到消息，如下图：
 ![](http://gitlab.rd.chanjet.com/gongzuoquan/isv-dev-doc/raw/master/im/valid.png)  
 
-二，我们可以安装集测环境手机端的工作圈运行的环境，这样能够在手机端直接的收到推送的消息。
+二，我们也可以安装集测环境手机端的工作圈运行的环境，这样能够在手机端直接的收到推送的消息。
 
 
-	    
-   
-   
 2.  具体Rest服务说明，见 [openpush.md](./im/openpush.md)
-
