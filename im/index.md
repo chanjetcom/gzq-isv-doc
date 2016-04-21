@@ -29,12 +29,36 @@
 	 
 + 1.3 后台直接编辑消息发送    
 + 1.3.1 打开网页: [网页地址](http://integzq.chanjet.com/openim/index.html) 
-+ 1.3.2 编辑如下：![](http://integzq.chanjet.com/openim/index.html)
++ 1.3.2 编辑如下：![](http://gitlab.rd.chanjet.com/gongzuoquan/isv-dev-doc/raw/master/im/para.png)    
++ 1.3.3 点击 生成签名 按钮 ，生成签名：6f401b288f681230b45185581c8bfa76 ，把这个值填入sign的输入框中。
++ 1.3.4 点击 发送消息 按钮，发送消息，结果是：
+![](http://gitlab.rd.chanjet.com/gongzuoquan/isv-dev-doc/raw/master/im/result.png)  
 
++ 1.4 通过java代码直接的调用rest服务推送消息：  
+
+
+    public static HttpClientUtils	httpClientUtils	= HttpClientUtils.getInstance();
+    public static String url = "http://integzq.chanjet.com/notify/web/openim/push";
+	public static String recordLogin(String token, String endpointInfo, String orgId, String rpt) 
+			throws IOException
+	{
+		List<NameValuePair> params = new ArrayList<>();
+		params.add(new NameValuePair("to", "60000001366"));
+		/**
+		 * 其他的变量类似处理
+		 * */
+		String body = httpClientUtils.postResponse(url, params, Charsets.UTF8, false, null);
+		return body;
+	}
+
++1.5   一，通过浏览器调试模式，验证对方是否收到消息，如下图：
+![](http://gitlab.rd.chanjet.com/gongzuoquan/isv-dev-doc/raw/master/im/valid.png)  
+
+二，我们可以安装集测环境手机端的工作圈运行的环境，这样能够在手机端直接的收到推送的消息。
 
 
 	    
    
    
-2.  具体方法说明，见 [openpush.md](./im/openpush.md)
+2.  具体Rest服务说明，见 [openpush.md](./im/openpush.md)
 
