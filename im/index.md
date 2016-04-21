@@ -28,8 +28,8 @@
 其余的非必需参数，可以参见：[openpush.md](./im/openpush.md)   
 	 
 + 1.3 后台直接编辑消息发送    
-
-1.3.1 打开网页: [网页地址](http://integzq.chanjet.com/openim/index.html)  
++ 1.3.1 打开网页: [网页地址](http://integzq.chanjet.com/openim/index.html) 
++ 1.3.2 编辑如下：![](http://integzq.chanjet.com/openim/index.html)
 
 
 
@@ -37,3 +37,4 @@
    
    
 2.  具体方法说明，见 [openpush.md](./im/openpush.md)
+
