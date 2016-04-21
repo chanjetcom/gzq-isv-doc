@@ -12,5 +12,6 @@
 	
     http://integzq.chanjet.com/openim/index.html 
 	    
+   ![](./im/5ec700a5-0b37-4bad-b3d4-4934103dba42.png)
    
 2.  具体方法说明，见 [openpush.md](./im/openpush.md)
