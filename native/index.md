@@ -4,6 +4,6 @@
 
 1.[Native开放接口列表](./native/nativeInterfaceList.md)
 
-2.[单点登录流程说明](./native/signInFlow.md)
+2.[接入方案及流程说明](./native/signInFlow.md)
 
-3.[ISV接入流程指南](./native/ISVGuide.md)
+3.[ISV接入指南](./native/ISVGuide.md)
