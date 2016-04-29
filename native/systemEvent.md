@@ -52,6 +52,8 @@ JS文件：
     
     
 各个平台的支持情况：
-![platforms](./native/res/platforms.png)
+
+![platforms](/native/res/platforms.png)
+
 
 [详见Cordova官方文档](http://cordova.apache.org/docs/en/latest/cordova/events/events.html)
