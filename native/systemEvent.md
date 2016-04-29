@@ -1,5 +1,7 @@
 ### 系统通知类事件
 **示例代码**
+[详见Cordova官方文档](http://cordova.apache.org/docs/en/latest/cordova/events/events.html)
+
 
 HTML文件：
 
@@ -52,6 +54,6 @@ JS文件：
     
     
 各个平台的支持情况：
-![platforms](./native/res/platforms.png)
 
-[详见Cordova官方文档](http://cordova.apache.org/docs/en/latest/cordova/events/events.html)
+![platforms](/native/res/platforms.png)
+
