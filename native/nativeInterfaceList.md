@@ -25,7 +25,8 @@
     }
     `
     
-**接口列表**
+    
+#### 接口列表
 
 **系统类参数**
 1. [deviceready](./native/systemEvent.md)
@@ -37,5 +38,5 @@
 7. [键盘事件KeyEvent.KEYCODE_VOLUME_UP](./native/systemEvent.md)
 8. [键盘事件KeyEvent.KEYCODE_VOLUME_DOWN](./native/systemEvent.md)
 
-    **业务类参数**
-9.
+**业务类参数**
+9. [选图（选图-自动上传到工作圈资源服务器）](./native/interfaces/album.md)
