@@ -1,7 +1,7 @@
 ### 选图（选图-自动上传到工作圈资源服务器）
 **接口名：Album**
 
-**方法名：selectImgs**
+**方法名：selectImgsNoUpload**
 
 **参数：**
 
@@ -16,7 +16,7 @@
     success,    //<callback> success(<json>); 见下面第2)部分详述
     error,       //<callback> error(<json>); 见下面第2)部分详述
     ‘Album’,    //类名
-    ‘selectImgs’,    //方法名
+    ‘selectImgsNoUpload’,    //方法名
     [{
         “selectedCount”: “0”,    //已选的数量
         “maxCount”: “0”        //总数
