@@ -5,15 +5,15 @@
 **第二步如果需要native接口，请添加cordova.js**
 [下载](./native/downloadCordova.md)
 
-**最后根据需要调用native接口**
+**第三步根据需要调用native接口**
 [接口列表](./native/nativeInterfaceList.md)
 
-### 接入方案及流程说明
+### 接入场景及相应方案和流程说明
 **场景1：只需要id，不需要登录**
 
-调用Config接口，即可获取当前当前账号的id及其他相关信息;ISV在自己的系统中，保存工作圈id和自己系统账号的对应关系即可。
+1. 调用Config接口，即可获取当前当前账号的id及其他相关信息[详见Config接口](./native/interfaces/Config.md)
+2. ISV在自己的系统中，保存工作圈id和自己系统账号的对应关系即可。
 
-[详见Config接口](./native/interfaces/Config.md)
 
 
 **场景2：需要id并单点登录**
