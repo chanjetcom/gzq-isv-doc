@@ -28,7 +28,7 @@
     
 #### 接口列表
 
-**系统类参数**
+**系统类接口**
 1. [deviceready](./native/systemEvent.md)
 2. [onResume事件](./native/systemEvent.md)
 3. [onPause事件](./native/systemEvent.md)
@@ -38,5 +38,8 @@
 7. [键盘事件KeyEvent.KEYCODE_VOLUME_UP](./native/systemEvent.md)
 8. [键盘事件KeyEvent.KEYCODE_VOLUME_DOWN](./native/systemEvent.md)
 
-**业务类参数**
+**业务类接口**
 9. [选图（选图-自动上传到工作圈资源服务器）](./native/interfaces/album.md)
+
+**Cordova原生插件扩展**
+10. [Cordova原生插件扩展](./native/cordovaOrigin.md)
