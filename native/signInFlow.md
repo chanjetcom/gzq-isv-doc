@@ -3,6 +3,7 @@
 [详见ISV接入指南](./native/ISVGuide.md)
 
 **第二步如果需要native接口，请添加cordova.js**
+[下载](./native/downloadCordova.md)
 
 **最后根据需要调用native接口**
 [接口列表](./native/nativeInterfaceList.md)
@@ -18,4 +19,4 @@
 **场景2：需要id并单点登录**
 1. 调用Config获取当前账号信息[详见Config接口](./native/interfaces/Config.md)
 2. 调用CSPAuthCode接口，获取单点登录code[详见CSPAuthCode接口](./native/interfaces/CSPAuthCode.md)
-3. 调用CIA平台的验证接口，验证code是否有效[详见CIA平台接口](./)
+3. 调用CIA平台的验证接口，验证code是否有效[详见CIA平台接口](http://dev.chanjet.com/page/apiHtml?detail=1-1704406315/1-1959429278.html)
