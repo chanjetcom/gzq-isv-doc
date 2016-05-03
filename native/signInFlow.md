@@ -1,3 +1,12 @@
+### 基本接入方式
+**第一步申请ISV账号及创建轻应用app**
+[详见ISV接入指南](./native/ISVGuide.md)
+
+**第二步如果需要native接口，请添加cordova.js**
+
+**最后根据需要调用native接口**
+[接口列表](./native/nativeInterfaceList.md)
+
 ### 接入方案及流程说明
 **场景1：只需要id，不需要登录**
 
