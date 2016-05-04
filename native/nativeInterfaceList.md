@@ -29,17 +29,17 @@
 #### 接口列表
 
 **系统类接口**
-1. [deviceready](./native/systemEvent.md)
-2. [onResume事件](./native/systemEvent.md)
-3. [onPause事件](./native/systemEvent.md)
-4. [键盘事件KeyEvent.KEYCODE_BACK](./native/systemEvent.md)
-5. [键盘事件KeyEvent.KEYCODE_MENU](./native/systemEvent.md)
-6. [键盘事件KeyEvent.KEYCODE_SEARCH](./native/systemEvent.md)
-7. [键盘事件KeyEvent.KEYCODE_VOLUME_UP](./native/systemEvent.md)
-8. [键盘事件KeyEvent.KEYCODE_VOLUME_DOWN](./native/systemEvent.md)
+1. [deviceready](systemEvent.md)
+2. [onResume事件](systemEvent.md)
+3. [onPause事件](systemEvent.md)
+4. [键盘事件KeyEvent.KEYCODE_BACK](systemEvent.md)
+5. [键盘事件KeyEvent.KEYCODE_MENU](systemEvent.md)
+6. [键盘事件KeyEvent.KEYCODE_SEARCH](systemEvent.md)
+7. [键盘事件KeyEvent.KEYCODE_VOLUME_UP](systemEvent.md)
+8. [键盘事件KeyEvent.KEYCODE_VOLUME_DOWN](systemEvent.md)
 
 **业务类接口**
-9. [选图（选图-自动上传到工作圈资源服务器）](./native/interfaces/album.md)
+9. [选图（选图-自动上传到工作圈资源服务器）](interfaces/album.md)
 
 **Cordova原生插件扩展**
-10. [Cordova原生插件扩展](./native/cordovaOrigin.md)
+10. [Cordova原生插件扩展](cordovaOrigin.md)
