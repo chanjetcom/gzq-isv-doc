@@ -6,25 +6,25 @@
 
     cordova轻应用文件结构示例：
 
-![cordova轻应用文件结构示例](/native/res/cordova/cordovafolder.png)
+![cordova轻应用文件结构示例](res/cordova/cordovafolder.png)
 
 **关于Cordova原生插件说明：**
 
-[关于Cordova原生插件扩展](./native/cordovaOrigin.md)
+[关于Cordova原生插件扩展](cordovaOrigin.md)
     
     
 **Cordova.js下载：**
 
     Android平台
 
-[cordova.js](./native/res/cordova/android/cordova.js)
+[cordova.js](res/cordova/android/cordova.js)
 
-[cordova_plugins.js](./native/res/cordova/android/cordova_plugins.js)
+[cordova_plugins.js](res/cordova/android/cordova_plugins.js)
 
 ***
 
     IOS平台
 
-[cordova.js](./native/res/cordova/ios/cordova.js)
+[cordova.js](res/cordova/ios/cordova.js)
 
-[cordova_plugins.js](./native/res/cordova/ios/cordova_plugins.js)
+[cordova_plugins.js](res/cordova/ios/cordova_plugins.js)
