@@ -55,5 +55,4 @@ JS文件：
     
 各个平台的支持情况：
 
-![platforms](/native/res/platforms.png)
-
+![platforms](res/platforms.png)
